@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack --hostname localhost --port 3000",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "client": "file:",
     "framer-motion": "^11.15.0",
     "lucide-react": "^0.469.0",
     "next": "15.1.3",
