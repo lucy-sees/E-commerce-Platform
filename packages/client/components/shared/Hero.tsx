@@ -1,3 +1,4 @@
+"use client"
 import React from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
@@ -37,7 +38,7 @@ const Hero = () => {
           className="relative h-[500px] border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]"
         >
           <Image
-            src="/api/placeholder/600/500"
+            src="https://picsum.photos/600/500"
             alt="Hero Image"
             className="w-full h-full object-cover"
             width={600}
