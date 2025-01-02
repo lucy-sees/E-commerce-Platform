@@ -20,7 +20,7 @@ const Navbar = ({ isAuthenticated = false }) => {
             whileHover={{ scale: 1.05 }}
             className="text-2xl font-bold font-[Flow Circular]"
           >
-            BRAND
+            BEBA#254
           </motion.div>
         </Link>
 
