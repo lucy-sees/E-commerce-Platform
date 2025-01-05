@@ -1,12 +1,11 @@
 "use client";
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { ShoppingCart, UserCircle, X } from 'lucide-react';
+import { ShoppingCart, UserCircle } from 'lucide-react';
 import Link from 'next/link';
 import SignUpModal from '../SignUpModal';
 
 const Navbar = ({ isAuthenticated = false }) => {
-  const [isHovered, setIsHovered] = useState(false);
   const [showSignUp, setShowSignUp] = useState(false);
 
   return (
